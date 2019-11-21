@@ -47,7 +47,7 @@ app.get('/terrains', (req, res) => {
         },
         {
             id: 3,
-            title: 'MERIGNAC',
+            title: 'MERIGNACO',
             status: 'acheté',
             description: 'Allée des Serres, Bordeaux',
             prix: 1050000,
