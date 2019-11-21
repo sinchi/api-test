@@ -11,6 +11,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
  
 // parse application/json
 app.use(bodyParser.json());
+app.get("/", (req, res) => {
+    res.status(200).send('test api');
+})
 
 app.get('/terrains', (req, res) => {     
     const datas = [{
